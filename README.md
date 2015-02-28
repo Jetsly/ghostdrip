@@ -1,0 +1,2 @@
+# ghostdrip
+Ghost Theme
