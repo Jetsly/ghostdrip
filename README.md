@@ -1,5 +1,5 @@
 # ghostdrip
-Ghost Theme
+Ghost 主题
 
 ###目录架构###
 
