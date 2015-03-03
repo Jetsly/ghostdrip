@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     {{! Page Meta }}
-    {{custom.meta}}    
+    {{> custom.meta}}    
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}" />
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
@@ -18,16 +18,15 @@
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
-<body class="{{body_class}}  aa">
-    <img src="{{@blog.logo}}" />
+<body class="{{body_class}}">
     <div class="container-fluid">
         <div class="row">
-            {{! Ghost outputs navigation}}
-            <div class="col-lg-3 visible-lg-block">{{navigation}}</div>
+            {{! Ghost outputs sidebar}}
+            {{> sidebar}}
             {{! Ghost outputs body}}
             <div class="col-lg-6">{{{body}}}</div>
         </div>
-        <div class="row">{{custom.footer}}</div>
+        <div class="row">{{> custom.footer}}</div>
     </div>   
 {{ghost_foot}}
 {{! The main JavaScript file for Jsdrip }}
