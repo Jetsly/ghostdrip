@@ -1,0 +1,18 @@
+<head>
+    {{! Document Settings }}
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    {{! Page Meta }}
+    {{> custom/meta}}    
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+    {{! Styles'n'Scripts }}
+    <link rel="stylesheet" type="text/css" href="{{asset "css/bootstrap.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+</head>
