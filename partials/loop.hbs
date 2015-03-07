@@ -1,10 +1,12 @@
 {{#foreach posts}}
 <article id="{{id}}" class="row post-list">
 	<header class="post-header">	    
-		<h2 class="post-title"><a href="{{url}}">{{title}}</a></h2>
-		<div>By {{author}} {{tags prefix=" on "}} </div>
-		<div class="post-sep"></div>
-		<div class="post-date">{{date published_at format="MMMM DD, YYYY"}}</div>
+		<h2><a href="{{url}}">{{title}}</a></h2>
+		<div class="post-meta">
+			<div class="post-links">By {{author}} {{tags prefix=" on "}} </div>
+			<div class="post-sep"></div>
+			<div class="post-date">{{date published_at format="MMMM DD, YYYY"}}</div>
+		</div>		
 	</header>
 	<section class="post-excerpt">
 		<p>{{excerpt words="50"}}</p>
