@@ -1,8 +1,5 @@
-
-<div class="row">
-    <ul class="list-unstyled">
-        {{#foreach navigation}}
-            <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
-        {{/foreach}}
-    </ul>
-</div>
+<ul class="list-unstyled">
+    {{#foreach navigation}}
+      <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+    {{/foreach}}
+</ul>

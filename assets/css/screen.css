@@ -1,6 +1,6 @@
 @media (min-width: 1200px){
 	.site-actions + .container-fluid {
-		padding: 80px 40px 0;
+		padding: 80px 95px 0;
 	}
 }
 @media (min-width: 992px) {
@@ -10,24 +10,45 @@
 
 }
 @media screen and (max-width: 767px){
-	
+
 }
 
 .site-actions{
 	position: fixed;
-	width: 20px;
+	width: 40px;
 	height: 100%;
 	left: 0;
-	background-color: #000;
+	background-color: #333;
+}
+.back-top{
+	width: 39px;
+	height: 39px;
+	text-align: center;
+	line-height: 40px;
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	cursor: pointer;
+	color: #444;
+	background: #222;
+	transition: color .3s, background-color .3s;
+}
+.back-top:hover span,
+.back-top:hover {
+	color: #fff;
+	background: #111;
+}
+.site-sidebar{
+	padding-right: 44px;
 }
 
 .site-info{
-	border-top: 5px solid #333333;
+	border-top: 5px solid #333;
 	width: 100%;
 	padding: 20px 0 40px;
-	border-top: 5px solid #333333;
+	border-top: 5px solid #333;
 	font-size: 12px;
 	line-height: 20px;
-	color: #aaaaaa;
-	background: #ffffff;
+	color: #aaa;
+	background: #fff;
 }
