@@ -8,7 +8,7 @@
 }
 @media (min-width: 768px) {
    	.site-actions + .container-fluid {
-		padding: 40px 15px;
+		padding: 40px 95px;
 	}	
 	.site-actions{
 		width: 40px;
@@ -22,8 +22,9 @@
 	}
 }
 @media screen and (max-width: 767px){
-	.site-actions + .container-fluid {
-		padding: 40px 0;
+	.site-actions + .container-fluid {		
+		padding: 40px 20px;
+		padding-bottom: 10px;
 	}
 	.site-actions{	
 		height: 40px;
