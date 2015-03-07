@@ -18,12 +18,12 @@ Ghost 主题
 └── author.hbs
 ```
 
-`index.hbs` 和 `post.hbs` 是必须的 – 如果这两个模板文件不存在的话，Ghost就无法正常运行
-`page.hbs` 独立页面模板 --/contact 可以自定义为 page-contact.hbs
-`tag.hbs`  标签页面模板
-`author.hbs` 作者页面模板
-`partials` 是一个特殊的目录。 这个目录包含模板文件
-`assets` 是一个资源的目录。 这个目录包含资源文件
+*	`index.hbs` 和 `post.hbs` 是必须的 – 如果这两个模板文件不存在的话，Ghost就无法正常运行
+*	`page.hbs` 独立页面模板 --/contact 可以自定义为 page-contact.hbs
+*	`tag.hbs`  标签页面模板
+*	`author.hbs` 作者页面模板
+*	`partials` 是一个特殊的目录。 这个目录包含模板文件
+*	`assets` 是一个资源的目录。 这个目录包含资源文件
 
 
 ####default.hbs####
