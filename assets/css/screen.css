@@ -18,7 +18,7 @@
 	width: 40px;
 	height: 100%;
 	left: 0;
-	background-color: #333;
+	background: #222;
 }
 .back-top{
 	width: 39px;
@@ -30,7 +30,6 @@
 	bottom: 0px;
 	cursor: pointer;
 	color: #444;
-	background: #222;
 	transition: color .3s, background-color .3s;
 }
 .back-top:hover span,
@@ -40,6 +39,10 @@
 }
 .site-sidebar{
 	padding-right: 44px;
+}
+
+.site-content{
+
 }
 
 .site-info{
