@@ -8,26 +8,13 @@
 }
 @media (min-width: 768px) {
    	.site-actions + .container-fluid {
-		padding: 80px 95px 0;
+		padding: 40px 15px;
 	}	
 	.site-actions{
 		width: 40px;
 		height: 100%;
 		left: 0;
-	}
-	.back-top{
-		width: 39px;
-		height: 39px;
-		text-align: center;
-		line-height: 40px;
-		display: block;
-		position: fixed;
-		bottom: 0px;
-		cursor: pointer;
-		color: #444;
-		border-top: 1px solid #333;
-		transition: color .3s, background-color .3s;
-	}
+	}	
 	.site-sidebar aside{
 		padding-top: 35px;
 		margin-top: 35px;
@@ -44,12 +31,15 @@
 		top: 0;
 	}
 	.back-top{
-		display: none;
+		display: none !important;
 	}
 	.site-sidebar aside{
 		padding-top: 15px;
 		margin-top: 15px;
 		border-top: 1px solid #e5e5e5;
+	}
+	.site-info{
+		margin: 0 20px;
 	}
 }
 
@@ -62,8 +52,6 @@ a:hover,.nav-current a{
 }
 /**base**/
 .site-info{
-	border-top: 5px solid #333;
-	width: 100%;
 	padding: 20px 0 40px;
 	border-top: 5px solid #333;
 	font-size: 12px;
@@ -72,25 +60,31 @@ a:hover,.nav-current a{
 	background: #fff;
 }
 /**actions**/
-.site-bars{
-    width: 39px;
+.site-actions a{
+	width: 39px;
 	height: 39px;
 	text-align: center;
 	line-height: 40px;
 	display: block;
-	position: fixed;
-	top: 0px;
+	position: fixed;	
 	cursor: pointer;
 	color: #444;
 	border-top: 1px solid #333;
-	transition: color .3s, background-color .3s; 	
+	transition: color .3s, background-color .3s;
+}
+.back-top{
+	bottom: 0px;
+}
+.site-bars{
+	top: 0px;
 }
 .site-actions{
 	position: fixed;
 	background: #222;
+	z-index: 1;
 }
-.back-top:hover span,
-.back-top:hover {
+.site-actions a:hover span,
+.site-actions a:hover {
 	color: #fff;
 	background: #111;
 }
