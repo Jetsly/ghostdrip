@@ -64,7 +64,7 @@ a:hover,.nav-current a{
 .site-sidebar{
 	padding-right: 44px;
 }
-.site-nav li{
+.site-nav li,.site-tag li{
 	overflow: hidden;
 	position: relative;
 	margin-top: 10px;
@@ -76,6 +76,13 @@ a:hover,.nav-current a{
 	padding-top: 35px;
 	margin-top: 35px;
 	border-top: 1px solid #e5e5e5;
+}
+.site-sidebar aside h3{
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	margin-top: 0;
+	text-rendering: optimizelegibility;
 }
 /**post**/
 .site-content{
