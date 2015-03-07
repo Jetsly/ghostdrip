@@ -1,3 +1,12 @@
+
+.site-actions{
+	position: fixed;
+	width: 20px;
+	height: 100%;
+	left: 0;
+	background-color: #000;
+}
+
 .site-info{
 	border-top: 5px solid #333333;
 	width: 100%;
