@@ -1,21 +1,58 @@
-@media (min-width: 1200px){
-	.site-actions + .container-fluid {
-		padding: 80px 95px 0;
-	}
+@media (min-width: 1200px) {
+    .site-bars{
+    	display: none !important
+    }
 }
 @media (min-width: 992px) {
-
+    
 }
 @media (min-width: 768px) {
-
+   	.site-actions + .container-fluid {
+		padding: 80px 95px 0;
+	}	
+	.site-actions{
+		width: 40px;
+		height: 100%;
+		left: 0;
+	}
+	.back-top{
+		width: 39px;
+		height: 39px;
+		text-align: center;
+		line-height: 40px;
+		display: block;
+		position: fixed;
+		bottom: 0px;
+		cursor: pointer;
+		color: #444;
+		border-top: 1px solid #333;
+		transition: color .3s, background-color .3s;
+	}
+	.site-sidebar aside{
+		padding-top: 35px;
+		margin-top: 35px;
+		border-top: 1px solid #e5e5e5;
+	}
 }
 @media screen and (max-width: 767px){
-   	.site-sidebar aside{
+	.site-actions + .container-fluid {
+		padding: 40px 0;
+	}
+	.site-actions{	
+		height: 40px;
+		width: 100%;
+		top: 0;
+	}
+	.back-top{
+		display: none;
+	}
+	.site-sidebar aside{
 		padding-top: 15px;
 		margin-top: 15px;
 		border-top: 1px solid #e5e5e5;
 	}
 }
+
 /**common**/
 a{
 	color: #000;
@@ -35,25 +72,22 @@ a:hover,.nav-current a{
 	background: #fff;
 }
 /**actions**/
-.site-actions{
-	position: fixed;
-	width: 40px;
-	height: 100%;
-	left: 0;
-	background: #222;
-}
-.back-top{
-	width: 39px;
+.site-bars{
+    width: 39px;
 	height: 39px;
 	text-align: center;
 	line-height: 40px;
 	display: block;
 	position: fixed;
-	bottom: 0px;
+	top: 0px;
 	cursor: pointer;
 	color: #444;
 	border-top: 1px solid #333;
-	transition: color .3s, background-color .3s;
+	transition: color .3s, background-color .3s; 	
+}
+.site-actions{
+	position: fixed;
+	background: #222;
 }
 .back-top:hover span,
 .back-top:hover {
@@ -71,11 +105,7 @@ a:hover,.nav-current a{
 	font-size: 12px;
 	line-height: 20px;
 }
-.site-sidebar aside{
-	padding-top: 35px;
-	margin-top: 35px;
-	border-top: 1px solid #e5e5e5;
-}
+
 .site-sidebar aside h3{
 	text-transform: uppercase;
 	font-size: 12px;
