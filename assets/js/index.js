@@ -1,4 +1,7 @@
 (function(argument) {
+	function actionlink (argument) {
+		return (document.querySelector&&document.querySelector(argument)||document.getElementsByClassName(argument)[0])
+	}
 	window.requestAnimationFrame 
 	|| (window.requestAnimationFrame = window.webkitRequestAnimationFrame 
 		|| window.mozRequestAnimationFrame 
@@ -17,5 +20,8 @@
 	    	requestAnimationFrame(scrolstep);
 	    }
 	}
-	(document.querySelector&&document.querySelector('.back-top')||document.getElementsByClassName('back-top')[0]).onclick=scrolstep;
+	actionlink('.back-top').onclick=scrolstep;
+	actionlink('.site-bars').onclick=function(){
+		
+	};	
 })();
