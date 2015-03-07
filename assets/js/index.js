@@ -17,5 +17,5 @@
 	    	requestAnimationFrame(scrolstep);
 	    }
 	}
-	(document.querySelector&&document.querySelector('a')||document.getElementsByClassName('back-top')[0]).onclick=scrolstep;
+	(document.querySelector&&document.querySelector('.back-top')||document.getElementsByClassName('back-top')[0]).onclick=scrolstep;
 })();
