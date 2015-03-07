@@ -1,5 +1,5 @@
-<ul class="list-unstyled site-tag fa-ul">
+<ul class="list-unstyled site-tag">
     {{#foreach tags}}
-      <li class="{{#if current}} nav-current{{/if}}"><i class="fa-li fa fa-tag"></i> <a href="{{url absolute="true"}}" data-count="{{post_count}}">{{name}}</a></li>
+      <li class="{{#if current}} nav-current{{/if}}"><i class="fa fa-tag"></i> <a href="{{url}}" data-count="{{post_count}}">{{name}}</a></li>
     {{/foreach}}
 </ul>
