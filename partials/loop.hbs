@@ -3,9 +3,14 @@
 	<header class="post-header">	    
 		<h2><a href="{{url}}">{{title}}</a></h2>
 		<div class="post-meta">
-			<div class="post-links">By {{author}} {{tags prefix=" on "}} </div>
-			<div class="post-sep"></div>
-			<div class="post-date">{{date published_at format="MMMM DD, YYYY"}}</div>
+			<div class="post-links">By {{author}} {{tags prefix=" in "}} </div>
+			<div class="post-sep">
+				<span class="img-circle"><i class="fa fa-file-text img-circle"></i></span>
+			</div>
+			<div class="post-date">
+				<i class="fa fa-calendar-o"></i>
+				{{date published_at format="MMMM DD, YYYY"}}
+			</div>
 		</div>		
 	</header>
 	<section class="post-excerpt">
