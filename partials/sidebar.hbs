@@ -1,18 +1,13 @@
 <div class="col-lg-3 visible-lg-block">
- 	<div class="row">
- 		<a href="{{@blog.url}}">
- 			<img src="{{@blog.logo}}" alt="" class="img-circle">
- 		</a>
- 	</div>
- 	<div class="row">
- 		<h5><small>{{@blog.title}}</small></h5>
- 	</div>
- 	<div class="row">
- 		<h6 class="page-header">
- 			<p class="text-muted">{{@blog.description}}</p>
- 	    </h6>
- 	</div>
- 	{{! Ghost outputs navigation}}
- 	{{navigation}}
-
+	<div class="row">
+		<a href="{{@blog.url}}">
+			<img src="{{@blog.logo}}" alt="" class="img-circle">
+		</a>
+		<h4><small>{{@blog.title}}</small></h5>
+		<h6 class="page-header">
+			<p class="text-muted">{{@blog.description}}</p>
+		</h6>
+		{{! Ghost outputs navigation}}
+		{{navigation}}
+	</div>
 </div>
