@@ -113,11 +113,14 @@ a:hover,.nav-current a{
 	height: 38px;
 	border: 1px solid #e5e5e5;
 	text-align: center;
-	line-height: 38px;
+	line-height: 36px;
 	background: #fff;
 }
 .post-date i{
 	margin-right: 5px;
+}
+.post-excerpt{
+	line-height: 25px;
 }
 .more-like{
 	display: block;
