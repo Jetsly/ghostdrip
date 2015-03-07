@@ -1,0 +1,13 @@
+{{#foreach posts}}
+<article id="{{id}}" class="row">
+	<header class="post-header">
+		<h2><a href="{{url}}">{{title}}</a></h2>
+		<div>By {{author}} in </div>
+		<div>{{date published_at format="MMMM DD, YYYY"}}</div>
+	</header>
+	<section class="post-excerpt">
+		<p>{{excerpt words="50"}}</p>
+        <a>Continue Reading</a>
+	</section>
+</article>
+{{/foreach}}

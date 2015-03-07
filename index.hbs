@@ -1,14 +1,2 @@
 {{!< default}}
-{{#foreach posts}}
-<article id="{{id}}" class="row">
-	<header>
-		<h2><a href="{{url}}">{{title}}</a></h2>
-		<div>By {{author}} in </div>
-		<div>{{published_at}}</div>
-	</header>
-	<div>
-		<p>{{content}}</p>
-        <a>Continue Reading</a>
-	</div>
-</article>
-{{/foreach}}
+{{> loop}}
