@@ -15,11 +15,11 @@
     <div class="container-fluid">
         <div class="row">
             {{! Ghost outputs sidebar}}
-            {{> sidebar}}
+            <div class="col-lg-2 visible-lg-block">{{> sidebar}}</div>
             {{! Ghost outputs body}}
             <div class="col-lg-6 site-content" >{{{body}}}</div>
             {{! Ghost outputs widget}}
-            {{> widget}}
+            <div class="col-lg-3">{{> widget}}</div>
         </div>
         <div class="row site-info">
           {{! Ghost outputs footer}}

@@ -1,24 +1,22 @@
-<div class="col-lg-2 visible-lg-block">
-	<div class="row site-sidebar">	
-		<div>
-			<a href="{{@blog.url}}">
-				<img src="{{@blog.logo}}" alt="" class="img-circle">
-			</a>
-			<h4>
-				<small>{{@blog.title}}</small>
-			</h4>
-		</div>		
-		<h6>
-			<p class="text-muted">{{@blog.description}}</p>
-		</h6>
-		<aside>
-			{{! Ghost outputs navigation}}
-			{{navigation}}
-		</aside>
-		<aside>
-		    <h3>Categories</h3>
-		    {{! Ghost outputs tag_cloud}}
-			{{tag_cloud limit="all"}}
-		</aside>
-	</div>
+<div class="row site-sidebar">	
+	<div>
+		<a href="{{@blog.url}}">
+			<img src="{{@blog.logo}}" alt="" class="img-circle">
+		</a>
+		<h4>
+			<small>{{@blog.title}}</small>
+		</h4>
+	</div>		
+	<h6>
+		<p class="text-muted">{{@blog.description}}</p>
+	</h6>
+	<aside class="widget">
+		{{! Ghost outputs navigation}}
+		{{navigation}}
+	</aside>
+	<aside class="widget">
+	    <h3>Categories</h3>
+	    {{! Ghost outputs tag_cloud}}
+	 	{{tag_cloud limit="all"}}
+	</aside>
 </div>
