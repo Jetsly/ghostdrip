@@ -51,6 +51,9 @@ a{
 a:hover,.nav-current a{
 	color: #7cc576;
 }
+code{
+	word-break: break-word;
+}
 /**base**/
 .site-info{
 	padding: 20px 0 40px;
