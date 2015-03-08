@@ -24,7 +24,6 @@
 	actionlink('.site-bars').onclick=function(){
 		
 	};
-     document.write('<a style="display:none!important" id="tanx-a-mm_109076080_8994641_30312366"></a>');
      tanx_s = document.createElement("script");
      tanx_s.type = "text/javascript";
      tanx_s.charset = "gbk";
