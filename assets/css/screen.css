@@ -5,6 +5,15 @@
     .site-widget,.site-sidebar{
    		display: block  !important;
 	}
+	.nav-show .site-content,
+	.nav-show .site-info,
+	.nav-show .site-actions{
+		-webkit-transform: translateX(0px);
+		-moz-transform: translateX(0px);
+		-ms-transform: translateX(0px);
+		-o-transform: translateX(0px);
+		transform: translateX(0px);
+	}
 }
 @media (min-width: 992px) {
     
