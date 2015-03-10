@@ -2,7 +2,7 @@
     .site-bars{
     	display: none !important
     }    
-    .site-widget {
+    .site-widget,.site-sidebar{
    		display: block  !important;
 	}
 }
@@ -45,9 +45,38 @@
 	.site-info{
 		margin: 0 20px;
 	}
+	.nav-show .site-actions{
+		-webkit-transform: translateX(240px);
+		-moz-transform: translateX(240px);
+		-ms-transform: translateX(240px);
+		-o-transform: translateX(240px);
+		transform: translateX(240px);
+	}
 }
 
 /**common**/
+.site-sidebar{
+	display: none;
+}
+.nav-show .site-content,
+.nav-show .site-info{
+	-webkit-transform: translateX(240px);
+	-moz-transform: translateX(240px);
+	-ms-transform: translateX(240px);
+	-o-transform: translateX(240px);
+	transform: translateX(240px);
+}
+.site-content,.site-info,.site-actions{
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	-o-transform: translateX(0);
+	transform: translateX(0);
+	-webkit-transition: -webkit-transform 500ms;
+	-moz-transition: -moz-transform 500ms;
+	-o-transition: -o-transform 500ms;
+	transition: transform 500ms;
+}
 a{
 	color: #000;
 }
