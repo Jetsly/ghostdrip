@@ -22,7 +22,15 @@
 	}
 	actionlink('.back-top').onclick=scrolstep;
 	actionlink('.site-bars').onclick=function(){
-		
+		var css="nav-show";
+		var arr=document.body.className.split(' ');
+		var index= arr.indexOf(css);
+		if(index==-1){
+			document.body.className=document.body.className+" "+css;
+		}
+		else{
+			document.body.className=arr.slice(0,index).concat(arr.slice(index+1)).join(' ');
+		}
 	};
 	/**ad**/
      tanx_s = document.createElement("script");
