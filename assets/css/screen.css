@@ -61,6 +61,10 @@
 		-o-transform: translateX(240px);
 		transform: translateX(240px);
 	}
+	.nav-show .site-sidebar{
+		width: 200px;
+  		display: block;
+	}
 }
 
 /**common**/
