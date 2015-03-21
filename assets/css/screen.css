@@ -18,7 +18,7 @@
   	display: block;
   	position: absolute;
 }
-.site-content,.site-actions,.site-bars{
+.site-content,.site-actions{
 	-webkit-transform: translateX(0);
 	-moz-transform: translateX(0);
 	-ms-transform: translateX(0);
@@ -167,8 +167,7 @@ code{
    		display: block  !important;
 	}
 	.nav-show .site-content,
-	.nav-show .site-actions,
-	.nav-show .site-bars{
+	.nav-show .site-actions{
 		-webkit-transform: translateX(0px);
 		-moz-transform: translateX(0px);
 		-ms-transform: translateX(0px);
@@ -226,8 +225,7 @@ code{
 	.site-info{
 		margin: 0 20px;
 	}
-	.nav-show .site-actions,
-	.nav-show .site-bars{
+	.nav-show .site-actions{
 		-webkit-transform: translateX(240px);
 		-moz-transform: translateX(240px);
 		-ms-transform: translateX(240px);
