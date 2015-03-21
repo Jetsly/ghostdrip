@@ -176,6 +176,7 @@ code{
 	.nav-show .site-sidebar{
 		width: auto;
 	  	display: block;
+	  	position: relative;
 	}
 }
 @media (min-width: 992px) {
