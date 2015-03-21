@@ -225,4 +225,7 @@ code{
 		-o-transform: translateX(240px);
 		transform: translateX(240px);
 	}
+	.nav-show .site-sidebar{
+		padding-left: 60px;
+	}
 }
