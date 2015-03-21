@@ -61,8 +61,7 @@ code{
 	height: 39px;
 	text-align: center;
 	line-height: 40px;
-	display: block;
-	position: fixed;	
+	display: block;	
 	cursor: pointer;
 	color: #444;
 	border-top: 1px solid #333;
@@ -71,9 +70,7 @@ code{
 }
 .back-top{
 	bottom: 0px;
-}
-.site-bars{
-	top: 0px;
+	position: fixed; 
 }
 .site-actions{
 	position: fixed;
