@@ -66,6 +66,7 @@ code{
 	cursor: pointer;
 	color: #444;
 	border-top: 1px solid #333;
+	background: #222;
 	transition: color .3s, background-color .3s;
 }
 .back-top{
