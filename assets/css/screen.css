@@ -2,20 +2,23 @@
 .site-sidebar{
 	display: none;
 }
-.nav-show .site-content,
-.nav-show .site-info{
+.nav-show .site-content{
+	position: fixed;
 	-webkit-transform: translateX(240px);
 	-moz-transform: translateX(240px);
 	-ms-transform: translateX(240px);
 	-o-transform: translateX(240px);
 	transform: translateX(240px);
 }
+.nav-show .site-info{
+	display: none;
+}
 .nav-show .site-sidebar{
 	width: 200px;
   	display: block;
   	position: absolute;
 }
-.site-content,.site-info,.site-actions{
+.site-content,.site-actions{
 	-webkit-transform: translateX(0);
 	-moz-transform: translateX(0);
 	-ms-transform: translateX(0);
@@ -29,6 +32,7 @@
 }
 .nav-show .container-fluid{
 	overflow-y: hidden;
+
 }
 a{
 	color: #000;
@@ -81,9 +85,6 @@ code{
 	background: #111;
 }
 /**sidebar**/
-.site-sidebar{
-	padding-right: 44px;
-}
 .site-nav li,.site-tag li{
 	overflow: hidden;
 	position: relative;
@@ -165,7 +166,6 @@ code{
    		display: block  !important;
 	}
 	.nav-show .site-content,
-	.nav-show .site-info,
 	.nav-show .site-actions{
 		-webkit-transform: translateX(0px);
 		-moz-transform: translateX(0px);
@@ -176,7 +176,13 @@ code{
 	.nav-show .site-sidebar{
 		width: auto;
 	  	display: block;
-	  	position: relative;
+	}
+	.nav-show .site-sidebar,
+	.nav-show .site-content{
+		position: relative;
+	}
+	.nav-show .site-info{
+		display: block;
 	}
 }
 @media (min-width: 992px) {
@@ -226,6 +232,6 @@ code{
 		transform: translateX(240px);
 	}
 	.nav-show .site-sidebar{
-		padding-left: 60px;
+		padding-left: 50px;
 	}
 }
