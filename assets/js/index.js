@@ -32,13 +32,4 @@
 			document.body.className=arr.slice(0,index).concat(arr.slice(index+1)).join(' ');
 		}
 	};
-	/**ad**/
-     tanx_s = document.createElement("script");
-     tanx_s.type = "text/javascript";
-     tanx_s.charset = "gbk";
-     tanx_s.id = "tanx-s-mm_109076080_8994641_30312366";
-     tanx_s.async = true;
-     tanx_s.src = "http://p.tanx.com/ex?i=mm_109076080_8994641_30312366";
-     tanx_h = document.getElementsByTagName("head")[0];
-     if(tanx_h)tanx_h.insertBefore(tanx_s,tanx_h.firstChild);
 })();
