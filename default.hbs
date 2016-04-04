@@ -18,13 +18,10 @@
             <div class="col-lg-2 site-sidebar">{{> sidebar}}</div>
             {{! Ghost outputs body}}
             <div class="col-lg-6 site-content col-md-11" >{{{body}}}</div>
-            {{! Ghost outputs widget}}
-            <div class="col-lg-3 site-widget">{{> widget}}</div>
         </div>
         <div class="row site-info">
           {{! Ghost outputs footer}}
-          {{> footer}}
-        
+          {{> footer}}        
         </div>
     </div>   
     {{ghost_foot jquery=false}}
