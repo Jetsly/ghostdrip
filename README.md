@@ -1,6 +1,8 @@
 # ghostdrip
 Ghost 主题
 
+ 预览图 ![ghost1](./ghost1.png)![ghost3](./ghost3.png)![ghost2](./ghost2.png)
+ 
 ###目录架构###
 
 ```
@@ -70,4 +72,5 @@ Ghost 主题
 ####文章的SEO优化信息####
 *	`{{meta_title}}`文章标题
 *	`{{meta_description}}`文章描述
+
 
